@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bellissimo</string>
+    <string name="taomnoma">Taomnoma</string>
+    <string name="yarim_bo_laklar_konstruksiyasi">Yarim bo\'laklar konstruksiyasi</string>
+    <string name="restoranlar">Restoranlar</string>
+    <string name="buyurtmaning_holati">Buyurtmaning holati</string>
+    <string name="buyurtmalar">Buyurtmalar</string>
+    <string name="profil">Profil</string>
+    <string name="chiqish">Chiqish</string>
+    <string name="bizga_qo_ng_iroq">Bizga qo\'ng\'iroq</string>
+    <string name="bizga_baho">Bizga Baho</string>
+    <string name="pitsa">Pitsa</string>
+    <string name="gazaklar">Gazaklar</string>
+    <string name="ichimliklar">Ichimliklar</string>
+    <string name="salatlar">Salatlar</string>
+    <string name="desert">Desert</string>
+</resources>

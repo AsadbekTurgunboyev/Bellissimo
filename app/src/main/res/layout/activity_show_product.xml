@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowProductActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_product"
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:src="@drawable/pitsa1"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/title_product"
+            android:layout_width="wrap_content"
+            android:text="Tovuqli donar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/desc_product"
+            android:layout_width="match_parent"
+            android:text="Lorem ipsum"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:text="Pitsa kattaligi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_height="wrap_content"/>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="#CDCDCD"
+            app:cardCornerRadius="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingVertical="@dimen/_2sdp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/btn_small"
+                    android:layout_width="0dp"
+                    android:background="@drawable/background_textview"
+                    android:text="Kichik"
+                    android:gravity="center"
+
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/text_color"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/btn_medium"
+                    android:layout_width="0dp"
+                    android:background="@drawable/background_textview"
+                    android:text="O'rtacha"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:clickable="true"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:focusable="true"
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_color"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/btn_large"
+                    android:layout_width="0dp"
+                    android:background="@drawable/background_textview"
+                    android:text="Katta"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:clickable="true"
+                    android:focusable="true"
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_color"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="0dp"
+                android:text="60 000 so'm"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_add"
+                android:layout_width="wrap_content"
+                android:text="Qo'shish"
+                android:layout_gravity="center_vertical"
+                app:cornerRadius="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_8sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:backgroundTint="#198E1E"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

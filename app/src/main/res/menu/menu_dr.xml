@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/taomnoma"   android:icon="@drawable/baseline_restaurant_menu_24" />
+        <item android:title="@string/yarim_bo_laklar_konstruksiyasi" android:icon="@drawable/baseline_local_pizza_24"/>
+        <item android:title="@string/restoranlar" android:icon="@drawable/baseline_coffee_24"/>
+        <item android:title="@string/buyurtmaning_holati" android:icon="@drawable/baseline_check_circle_24"/>
+        <item android:title="@string/buyurtmalar" android:icon="@drawable/outline_watch_later_24"/>
+        <item android:title="@string/profil" android:icon="@drawable/outline_person_24"/>
+        <item android:title="@string/chiqish" android:icon="@drawable/baseline_logout_24"/>
+
+    </group>
+</menu>

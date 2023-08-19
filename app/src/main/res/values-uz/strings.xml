@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Беллиссимо</string>
+    <string name="taomnoma">Таомнома</string>
+    <string name="yarim_bo_laklar_konstruksiyasi">Ярим бўлаклар конструкцияси</string>
+    <string name="restoranlar">Ресторанлар</string>
+    <string name="buyurtmaning_holati">Буюртманинг ҳолати</string>
+    <string name="buyurtmalar">Буюртмалар</string>
+    <string name="profil">Профил</string>
+    <string name="chiqish">Чиқиш</string>
+    <string name="bizga_qo_ng_iroq">Бизга қўнғироқ</string>
+    <string name="bizga_baho">Бизга Баҳо</string>
+    <string name="pitsa">Пицца</string>
+    <string name="gazaklar">Газаклар</string>
+    <string name="ichimliklar">Ичимликлар</string>
+    <string name="salatlar">Салатлар</string>
+    <string name="desert">Десерт</string>
+
+</resources>
